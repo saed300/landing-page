@@ -4,7 +4,7 @@ Project created using react, so use 'npm Run Start' to spin up the project.
 
 Tools used: React, React-icons, hooks: useViewportscroll, useAnimation etc, Framer Motion, Intersection Observer, VSCode and chrome dev tools for responsivness.
 
-Why: I used React because I wanted to utilize framer motion for some animations as it is a react based library. Alternatively, I could have done this with CSS by adding/removing classes in the useEffect hook; but I wanted to challenge myself and use a new technology. I like learning new things! :) 
+Why: I used React because I wanted to utilize framer motion for some animations as it is a react based library. I used a small parallax effect on the main heading in the Home.JS. Once the user scrolls, not only does a parallax effect occur, but also by using scrollYProgress, when the user scrolls at a certain position, the color changes from black to white. Alternatively, I could have done this with CSS by adding/removing classes in the useEffect hook; but I wanted to challenge myself and use a new technology. I like learning new things! :) 
 
 Time: 1.5/2hrs
 
