@@ -1,6 +1,6 @@
 # Landing page
 
-Project created using react, so use 'NPN Run Start' to spin up the project.
+Project created using react, so use 'npm Run Start' to spin up the project.
 
 Tools used: React, React-icons, hooks: useViewportscroll, useAnimation etc, Framer Motion, Intersection Observer, VSCode and chrome dev tools for responsivness.
 
