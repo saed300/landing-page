@@ -1,35 +1,35 @@
-import React, {useEffect} from 'react'
-import {motion, useAnimation} from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
+import React from 'react'
+// import {motion, useAnimation} from 'framer-motion'
+// import { useInView } from 'react-intersection-observer'
 import Mountain from '../Images/mountain.jpeg'
 
 const Science = () => {
 
-    // Intersection observer 
-    const {ref, inView, entry} = useInView({
-      root: null,
-      threshold: 1,
-      // triggerOnce: 'true'
-    })
+//     // Intersection observer 
+//     const {ref, inView, entry} = useInView({
+//       root: null,
+//       threshold: 1,
+//       // triggerOnce: 'true'
+//     })
   
-    //Framer
-    const control = useAnimation();
+//     //Framer
+//     const control = useAnimation();
   
-    useEffect(() => {
-      if(inView) {
-        control.start({scale: 1.7})
-      }
-      if(!inView) {
-        control.start({scale: 1})
-      }
-    }, [inView, control])
+//     useEffect(() => {
+//       if(inView) {
+//         control.start({scale: 1.2})
+//       }
+//       if(!inView) {
+//         control.start({scale: 1})
+//       }
+//     }, [inView, control])
   
     
 
   return (
     <div className='section-3'>
       <div className='grid-container'>
-        <motion.img src={Mountain} alt='A Mountain' className='image' ref={ref}  />
+        <img src={Mountain} alt='A Mountain' className='image' />
         <div className='science-text-container'>
           <h1 className='section-2-3-heading'>Innovation and Experience design agency</h1>
           <p className='section-2-3-paragraph'>Apps is an innovation and experience design agency</p>
